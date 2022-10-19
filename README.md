@@ -20,3 +20,8 @@ The data set contains the following diseases:
 * Squamous cell carcinoma
 * Vascular lesion
 
+# Did you get rid of underfitting/overfitting? Did class rebalance help? 
+* The class rebalance helped in reducing overfititng of the data and thus the loass is beng reduced But it reduced the Acurracy very low
+* Initially we tried without the ImageDataGenerator which created data to over fit at high ratio
+* Then we introduced dropout and ImageDataGenerator which reduced the over fit
+* At last we tried Batch Normalization and Augumentation which really helped in carry forward
